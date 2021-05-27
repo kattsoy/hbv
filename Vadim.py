@@ -39,9 +39,9 @@ from turtle import Screen, Turtle
 import patch_turtle_image
 
 screen = Screen()
-screen.bgpic('/Users/kek/Downloads/IMG_6389.JPG')
-screen.register_shape('/Users/kek/Downloads/IMG_6398-min.PNG')
-turtle = Turtle('/Users/kek/Downloads/IMG_6398-min.PNG')
+screen.bgpic('https://github.com/kattsoy/hbv/blob/39191e70a43ad4f31a58f89b30986ab8577bcffb/IMG_6389.JPG')
+screen.register_shape('https://github.com/kattsoy/hbv/blob/39191e70a43ad4f31a58f89b30986ab8577bcffb/IMG_6398-min.PNG')
+turtle = Turtle('https://github.com/kattsoy/hbv/blob/39191e70a43ad4f31a58f89b30986ab8577bcffb/IMG_6398-min.PNG')
 turtle.pensize(width=20)
 turtle.width(width=15)
 turtle.pencolor('pink')
