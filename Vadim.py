@@ -1,6 +1,9 @@
 import turtle
 import PIL
 from turtle import Shape, TurtleScreen, TurtleGraphicsError
+import tkinter as tk
+from tkinter.filedialog import askdirectory
+from PIL import ImageTk
 from os.path import isfile
 
 # Methods shouldn't do `if name.lower().endswith(".gif")` but simply pass
