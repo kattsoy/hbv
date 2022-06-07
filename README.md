@@ -3,5 +3,5 @@
 Here I am creating digital post-card using pre-installed python library turtle. 
 
 ## Technologies
-* Python 
+* Python 3.7
 * turtle
